@@ -8,7 +8,10 @@
 }
 body {
   line-height: 1.5;
+  font-size: 1.2rem;
   -webkit-font-smoothing: antialiased;
+  padding-top: 140px;
+  background-color: #fefcff;
 }
 img,
 picture,
@@ -36,6 +39,12 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .navbar-nav * {
@@ -159,7 +168,7 @@ h6 {
   object-fit: cover;
   -o-object-position: center;
   object-position: center;
-  height: 82vh;
+  height: 84vh;
   overflow: hidden;
   width: 100%;
 }
@@ -266,5 +275,88 @@ h6 {
 
 .carousel-caption {
   margin-top: auto !important;
-  margin-bottom: auto !important;
+  margin-bottom: 5em;
+}
+
+@media (min-width: 768px) {
+  .carouselh3 {
+    font-size: 2.5rem;
+  }
+  .carouselp {
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+.footer-container {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.divider {
+  padding: 24px;
+}
+
+.container-servicii img {
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-servicii {
+  text-align: center;
+}
+
+.img-preturi {
+  border-radius: 100%;
+}
+
+.text-pret {
+  margin-top: 1em;
+  white-space: nowrap;
+}
+
+.dotdiv {
+  border-bottom: dotted 2px rgba(160, 145, 145, 0.76);
+  width: 100%;
+  float: left;
+  position: relative;
+  display: none;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.dotdiv:first-child,
+.dotdiv:last-child {
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .dotdiv {
+    display: block;
+  }
+}
+
+.img-mentiuni {
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .img-mentiuni-wrapper {
+    display: none;
+  }
+}
+
+.info-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.3em;
+}
+
+.reguli li {
+  margin-top: 0.5em;
 }
