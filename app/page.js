@@ -7,6 +7,7 @@ import Servicii from "./components/Servicii";
 import ListaPreturi from "./components/ListaPreturi";
 import Rules from "./components/Rules";
 import LastPosts from "./components/LastPosts";
+import BackToTopButton from "./components/BackToTopButton";
 import 'dotenv/config'
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Rules />
       <Divider text="POSTARI RECENTE" />
       <LastPosts />
+      <BackToTopButton />
     </main>
   );
 }

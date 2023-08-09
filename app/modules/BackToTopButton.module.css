@@ -1,0 +1,21 @@
+.backToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    visibility: hidden;
+  }
+  
+  .visible {
+    opacity: 0.8;
+    visibility: visible;
+  }
+  
+  .backToTopButton:hover{
+    opacity: 1;
+  }
