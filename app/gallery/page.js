@@ -1,3 +1,4 @@
+import BackToTopButton from "../components/BackToTopButton";
 async function getImage() {
     const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.INSTAGRAM_KEY}&limit=1000`;
     console.log(url)
@@ -22,6 +23,7 @@ async function getImage() {
     return (
       <div className="recent-row">
         {posts} 
+        <BackToTopButton />
       </div>
     );
   }
