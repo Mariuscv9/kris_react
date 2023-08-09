@@ -1,6 +1,5 @@
 async function getImage() {
-    const url =asd  
-    // `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.INSTAGRAM_KEY}&limit=1000`;
+    const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.INSTAGRAM_KEY}&limit=1000`;
     console.log(url)
     const res = await fetch(url);
     const data = await res.json();
