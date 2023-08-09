@@ -35,7 +35,7 @@ export default function Header() {
               <Nav.Link className="nav-item" href="#anchor5">
                 Lucrari recente
               </Nav.Link>
-              <Link className="nav-item nav-link" href="/Gallery">
+              <Link className="nav-item nav-link" href="/gallery">
                 Galerie
               </Link>
             </Nav>
