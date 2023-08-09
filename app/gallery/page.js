@@ -20,7 +20,7 @@ async function getImage() {
       );
     });
     return (
-      <div className="recent-row" id="random">
+      <div className="recent-row">
         {posts} 
       </div>
     );
