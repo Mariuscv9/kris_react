@@ -19,8 +19,8 @@ export default function Slider() {
         <Image src={slide1} alt="picture of manicure" text="First slide" />
         <Carousel.Caption>
           <h3 className="carouselh3">
-            You can't buy happiness but you can buy nail art and that's
-            basically the same thing.
+            {`You can't buy happiness but you can buy nail art and that's
+            basically the same thing.`}
           </h3>
           <p className="carouselp">
             Alege culoarea care te face fericita dintr-o gama de peste 200 de
