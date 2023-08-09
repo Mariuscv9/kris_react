@@ -11,6 +11,7 @@ import important from "/public/important.png"
 export default function listaPreturi() {
   return (
     <Container fluid="md" className="mt-5 mb-3">
+      <span id="anchor3" className="anchor"></span>
       <Row>
         {" "}
         {data.map((data) => {
@@ -22,7 +23,7 @@ export default function listaPreturi() {
         <Col lg={4}>
          <Row className="text-start">
          <Col xs={2} className="img-mentiuni-wrapper">
-         <Image className="img-mentiuni" src={hourglass} width={50}/>
+         <Image className="img-mentiuni" src={hourglass} width={50} alt="animated hourglass"/>
          </Col>
          <Col xs={10}><h5>Timpul pentru constructie sau intretinere gel poate varia intre 2 si 5 ore in functie de complexitate.</h5></Col>
          </Row>
@@ -32,7 +33,7 @@ export default function listaPreturi() {
         <Col lg={4}>
           <Row>
             <Col xs={10}><h5>Daca aveti mai mult de 4 unghii rupte se considera a fi constructie.</h5></Col>
-            <Col xs={2} className="img-mentiuni-wrapper"><Image className="img-mentiuni" src={important} width={50} /></Col>
+            <Col xs={2} className="img-mentiuni-wrapper"><Image className="img-mentiuni" src={important} width={50} alt="exclamation mark"/></Col>
           </Row>
         </Col>
       </Row>

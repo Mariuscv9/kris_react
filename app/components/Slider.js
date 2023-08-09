@@ -14,7 +14,7 @@ export default function Slider() {
   };
 
   return (
-    <Carousel fade activeIndex={index} onSelect={handleSelect}>
+    <Carousel fade activeIndex={index} onSelect={handleSelect} >
       <Carousel.Item className="carousel-item">
         <Image src={slide1} alt="picture of manicure" text="First slide" />
         <Carousel.Caption>
@@ -23,7 +23,7 @@ export default function Slider() {
             basically the same thing.
           </h3>
           <p className="carouselp">
-            Alege culoarea care te fac fericita dintr-o gama de peste 200 de
+            Alege culoarea care te face fericita dintr-o gama de peste 200 de
             culori.
           </p>
         </Carousel.Caption>

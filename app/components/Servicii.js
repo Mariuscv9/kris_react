@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 export default function Servicii() {
   return (
     <Container fluid="md" className="container-servicii mt-5 mb-5">
+      <span id="anchor2" className="anchor"></span>
       <Row>
         <Col md={4}>
           <motion.div

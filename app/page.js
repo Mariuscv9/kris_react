@@ -5,6 +5,9 @@ import Divider from "./components/Divider";
 import Servicii from "./components/Servicii";
 import ListaPreturi from "./components/ListaPreturi";
 import Rules from "./components/Rules";
+import LastPosts from "./components/LastPosts";
+import 'dotenv/config'
+
 
 export default function Home() {
   return (
@@ -17,7 +20,8 @@ export default function Home() {
       <ListaPreturi />
       <Divider text="REGULI SI INFORMATII" />
       <Rules />
-      <Divider text="LUCRARI RECENTE" />
+      <Divider text="POSTARI RECENTE" />
+      <LastPosts />
     </main>
   );
 }

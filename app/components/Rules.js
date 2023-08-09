@@ -9,10 +9,11 @@ import Image from "next/image";
 export default function Rules() {
   return (
     <Container className="reguli">
+      <span id="anchor4" className="anchor"></span>
       <Row>
         <Col md={6}>
           {" "}
-          <h3 class="fw-light text-center mt-5 mb-4">REGULI</h3>
+          <h3 className="fw-light text-center mt-5 mb-4">REGULI</h3>
           <ul>
             <li>
               Timpul meu de lucru este de +/- 2 ore, în funcție de complexitate.
@@ -65,7 +66,7 @@ export default function Rules() {
           </ul>
         </Col>
         <Col md={6}>
-          <h3 class="fw-light text-center mt-5 mb-4">INFORMATII</h3>
+          <h3 className="fw-light text-center mt-5 mb-4">INFORMATII</h3>
           <ul>
             <li>
               Cu o zi inainte de programare veti primi un mesaj de confirmare
@@ -94,15 +95,15 @@ export default function Rules() {
             </li>
           </ul>
           <div className="info-socials">
-            <a class="nav-link" href="https://wa.me/40770494715">
+            <a className="nav-link" href="https://wa.me/40770494715">
               <Image src={wapp} alt="whatsapp" />
             </a>
-            <a class="nav-link" href="https://www.instagram.com/ck.manicure/">
+            <a className="nav-link" href="https://www.instagram.com/ck.manicure/">
               <Image src={insta} alt="instagram" />
             </a>
           </div>
           <ul className="pt-4">
-            <h5 class="fw-bold">
+            <h5 className="fw-bold">
               ! Când doriți o programare, vă rog, să îmi lăsați următoarele
               detalii:
             </h5>

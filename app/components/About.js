@@ -6,11 +6,12 @@ import Image from "next/image";
 import profilebw2 from "/public/profilebw2.jpg";
 export default function About() {
   return (
-    <Container fluid="md" className="about mt-5 mb-5">
+    <Container fluid="md" className="about mt-5 mb-5" >
+      <span id="anchor1" className="anchor"></span>
       <Row>
         <Col md={9}>
           {" "}
-          <h2 class="h1">CSIKI KRISZTINA</h2>
+          <h2 className="h1">CSIKI KRISZTINA</h2>
           <h3>Nail Technician</h3>
           <p>
             Eu sunt Csiki Krisztina, am 25 de ani și sunt tehnician de unghii.
@@ -30,7 +31,7 @@ export default function About() {
           </p>
         </Col>
         <Col md={3}>
-          <Image src={profilebw2} />
+          <Image src={profilebw2} alt="picture of me"/>
         </Col>
       </Row>
     </Container>
