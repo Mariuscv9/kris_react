@@ -21,12 +21,10 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-                x: -300,
                 transition: "all 0.7s ease-out",
               },
               show: {
                 opacity: 1,
-                x: 0,
                 transition: {
                   duration: 1.5,
                 },
@@ -50,12 +48,12 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-                y: 300,
+
                 transition: "all 0.7s ease-out",
               },
               show: {
                 opacity: 1,
-                y: 0,
+
                 transition: {
                   duration: 1.5,
                 },
@@ -80,12 +78,12 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-                x: 300,
+
                 transition: "all 0.7s ease-out",
               },
               show: {
                 opacity: 1,
-                x: 0,
+
                 transition: {
                   duration: 1.5,
                 },
