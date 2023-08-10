@@ -315,6 +315,9 @@ footer {
 .img-preturi {
   border-radius: 100%;
 }
+.img-preturi:hover{
+  transform:scale(1.3);
+transition: 0.3s;}
 
 
 .tex-pret h3,.pret{font-size: 1.2em;
@@ -447,3 +450,10 @@ margin: auto;
 }
 .row-preturi *{margin: auto;}
 .pret{white-space: nowrap;}
+
+
+.portret{
+  margin: auto;
+  min-width: auto;
+}
+

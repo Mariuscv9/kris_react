@@ -9,7 +9,7 @@ export default function About() {
     <Container fluid="md" className="about mt-5 mb-5" >
       <span id="anchor1" className="anchor"></span>
       <Row>
-        <Col md={9}>
+        <Col lg={9}>
           {" "}
           <h2 className="h1">CSIKI KRISZTINA</h2>
           <h3>Nail Technician</h3>
@@ -30,8 +30,8 @@ export default function About() {
             minimaliste dar si sa realizez french-ul mult iubit.
           </p>
         </Col>
-        <Col md={3}>
-          <Image src={profilebw2} alt="picture of me"/>
+        <Col lg={3}>
+          <Image className="portret" src={profilebw2} alt="picture of me"/>
         </Col>
       </Row>
     </Container>

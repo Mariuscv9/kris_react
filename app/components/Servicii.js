@@ -21,7 +21,7 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-                transition: "all 0.7s ease-out",
+                transition: "all 0.5s ease-in",
               },
               show: {
                 opacity: 1,
@@ -48,7 +48,7 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-                transition: "all 0.7s ease-out",
+                transition: "all 0.5s ease-in",
               },
               show: {
                 opacity: 1,
@@ -76,7 +76,7 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-                transition: "all 0.7s ease-out",
+                transition: "all 0.5s ease-in",
               },
               show: {
                 opacity: 1,
