@@ -20,7 +20,7 @@ export default function Preturi({ imgData, pret, serviciu }) {
           <Row className="tex-pret">
             <Col><h3>{serviciu}</h3></Col>
             <Col className="dotdiv"></Col>
-            <Col className="pret"><p>{pret} Ron</p></Col>
+            <Col xs={12} md={3} className="pret"><p>{pret} Ron</p></Col>
           </Row>
         </Col>
       </Row>

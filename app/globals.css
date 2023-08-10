@@ -446,3 +446,4 @@ align-items: center;
 margin: auto;
 }
 .row-preturi *{margin: auto;}
+.pret{white-space: nowrap;}
