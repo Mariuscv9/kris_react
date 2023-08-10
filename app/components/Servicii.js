@@ -48,12 +48,10 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-
                 transition: "all 0.7s ease-out",
               },
               show: {
                 opacity: 1,
-
                 transition: {
                   duration: 1.5,
                 },
@@ -78,12 +76,10 @@ export default function Servicii() {
             variants={{
               hide: {
                 opacity: 0,
-
                 transition: "all 0.7s ease-out",
               },
               show: {
                 opacity: 1,
-
                 transition: {
                   duration: 1.5,
                 },
