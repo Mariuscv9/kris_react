@@ -75,7 +75,7 @@ let data = [
   },
   {
     id: "7",
-    serviciu: "Pedichiură Semipermanentă",
+    serviciu: "Pedichiură Semi",
     pret: "170",
     imgData: {
       src: pic7,

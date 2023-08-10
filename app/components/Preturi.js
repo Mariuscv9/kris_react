@@ -17,10 +17,10 @@ export default function Preturi({ imgData, pret, serviciu }) {
           />
         </Col>
         <Col xs={9} md={10}>
-          <Row className="text-pret">
+          <Row className="tex-pret">
             <Col>{serviciu}</Col>
             <Col className="dotdiv"></Col>
-            <Col>{pret} Ron</Col>
+            <Col className="pret">{pret} Ron</Col>
           </Row>
         </Col>
       </Row>
