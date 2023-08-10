@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.cknailstudio.ro/
+
+# Sitemaps
+Sitemap: https://www.cknailstudio.ro/sitemap.xml
