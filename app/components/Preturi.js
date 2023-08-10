@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Preturi({ imgData, pret, serviciu }) {
   return (
     <Col md={6} className="wrap-preturi mb-4">
-      <Row>
+      <Row className="row-preturi">
         <Col xs={3} md={2}>
           <Image
             className="img-preturi"
@@ -18,9 +18,9 @@ export default function Preturi({ imgData, pret, serviciu }) {
         </Col>
         <Col xs={9} md={10}>
           <Row className="tex-pret">
-            <Col>{serviciu}</Col>
+            <Col><h3>{serviciu}</h3></Col>
             <Col className="dotdiv"></Col>
-            <Col className="pret">{pret} Ron</Col>
+            <Col className="pret"><p>{pret} Ron</p></Col>
           </Row>
         </Col>
       </Row>

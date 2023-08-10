@@ -32,7 +32,7 @@ export default function Servicii() {
             }}
           >
             <Image src={unghii} alt="picture of nails" />
-            <h4 className="mt-3">MANICHIURA </h4>
+            <h2 className="mt-3">MANICHIURA </h2>
             <p>
               Servicii de manichiura tehnica cu o selectie de peste 100 de
               nuante si o mare varitate de nail art
@@ -59,7 +59,7 @@ export default function Servicii() {
             }}
           >
             <Image src={pedi} alt="picture of nails" />
-            <h4 className="mt-3">PEDICHIURA</h4>
+            <h2 className="mt-3">PEDICHIURA</h2>
             <p>
               Servicii de pedichiura dry cu ajutorul celor mai noi tehnici de
               curatare si estetica
@@ -88,7 +88,7 @@ export default function Servicii() {
           >
             {" "}
             <Image src={instrumentar} alt="picture of utensils" />
-            <h4 className="mt-3">STERILIZARE</h4>
+            <h2 className="mt-3">STERILIZARE</h2>
             <p>
               Sterilizare si dezinfectare la nivel de cabinet medical realizate
               cu ajutorul autoclavului si a solutiilor dezinfectante avizate de

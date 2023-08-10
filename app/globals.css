@@ -311,14 +311,15 @@ footer {
   text-align: center;
 }
 
+.container-servicii h2{font-size: 1.5em;}
 .img-preturi {
   border-radius: 100%;
 }
 
-.text-pret {
-  margin-top: 1em;
-  white-space: nowrap;
-}
+
+.tex-pret h3,.pret{font-size: 1.2em;
+  }
+
 
 .dotdiv {
   border-bottom: dotted 2px rgba(160, 145, 145, 0.76);
@@ -326,8 +327,8 @@ footer {
   float: left;
   position: relative;
   display: none;
-  margin-bottom: auto;
-  margin-top: auto;
+  margin: auto !important;
+ 
 }
 
 .dotdiv:first-child,
@@ -439,3 +440,9 @@ footer {
   opacity: 1;
   visibility: visible;
 }
+
+.row-preturi{
+align-items: center;
+margin: auto;
+}
+.row-preturi *{margin: auto;}
