@@ -9,7 +9,7 @@ import 'dotenv/config'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ck Nails",
+  title: "CK Nails Studio",
   description: "Experimentează rafinamentul și eleganța serviciilor de manichiură și pedichiură pe care le ofer în București. Ofer o gamă variată de tratamente pentru unghii, într-un ambient relaxant. Descoperă servicii personalizate ce redau frumusețea mâinilor și picioarelor tale la cel mai înalt nivel.",
   keywords:"manichiura, pedichiura, unghii",
   author:"Marius Enache"

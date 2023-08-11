@@ -65,7 +65,7 @@ let data = [
   {
     id: "6",
     serviciu: "Curatare",
-    pret: "200",
+    pret: "100",
     imgData: {
       src: pic6,
       alt: "picture of manicure",
@@ -87,7 +87,7 @@ let data = [
   {
     id: "8",
     serviciu: "Pedichiură Clasică",
-    pret: "200",
+    pret: "100",
     imgData: {
       src: pic8,
       alt: "picture of manicure",
