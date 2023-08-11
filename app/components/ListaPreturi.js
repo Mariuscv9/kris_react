@@ -12,12 +12,12 @@ export default function listaPreturi() {
   return (
     <Container fluid="md" className="mt-5 mb-3">
       <span id="anchor3" className="anchor"></span>
-      <Row>
+      <div className="wrap-preturi">
         {" "}
         {data.map((data) => {
           return <Preturi key={data.id} {...data} />;
         })}
-      </Row>
+      </div>
       <h3 className="text-center mt-4">MENTIUNI</h3>
       <Row className="mt-4">
         <Col lg={4}>

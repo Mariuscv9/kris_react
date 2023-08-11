@@ -14,8 +14,8 @@ let data = [
     imgData: {
       src: pic1,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
   {
@@ -25,8 +25,8 @@ let data = [
     imgData: {
       src: pic2,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
   {
@@ -36,8 +36,8 @@ let data = [
     imgData: {
       src: pic3,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
   {
@@ -47,8 +47,8 @@ let data = [
     imgData: {
       src: pic4,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
   {
@@ -58,19 +58,19 @@ let data = [
     imgData: {
       src: pic5,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
   {
     id: "6",
     serviciu: "Curatare",
-    pret: "100",
+    pret: "200",
     imgData: {
       src: pic6,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
   {
@@ -80,19 +80,19 @@ let data = [
     imgData: {
       src: pic7,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
   {
     id: "8",
     serviciu: "Pedichiură Clasică",
-    pret: "100",
+    pret: "200",
     imgData: {
       src: pic8,
       alt: "picture of manicure",
-      width: "70",
-      height: "75",
+      width: "200",
+      height: "200",
     },
   },
 ];

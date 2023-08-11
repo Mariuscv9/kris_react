@@ -311,18 +311,14 @@ footer {
   text-align: center;
 }
 
-.container-servicii h2{font-size: 1.5em;}
-.img-preturi {
-  border-radius: 100%;
+.container-servicii h2 {
+  font-size: 1.5em;
 }
-.img-preturi:hover{
-  transform:scale(1.3);
-transition: 0.3s;}
 
-
-.tex-pret h3,.pret{font-size: 1.2em;
-  }
-
+.tex-pret h3,
+.pret {
+  font-size: 1.2em;
+}
 
 .dotdiv {
   border-bottom: dotted 2px rgba(160, 145, 145, 0.76);
@@ -331,7 +327,6 @@ transition: 0.3s;}
   position: relative;
   display: none;
   margin: auto !important;
- 
 }
 
 .dotdiv:first-child,
@@ -400,15 +395,15 @@ transition: 0.3s;}
     padding: 0 0.3em;
   }
   .recent-col img {
-     transition: transform .5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
+    transition: transform 0.5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
   }
   .recent-col img:hover {
     filter: none !important;
     transition-duration: 0.3s;
   }
 }
-.footer{
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -420,9 +415,9 @@ transition: 0.3s;}
   vertical-align: middle;
 }
 
-.anchor{
+.anchor {
   position: relative;
-  top:-300px
+  top: -300px;
 }
 
 .backToTopButton {
@@ -444,18 +439,75 @@ transition: 0.3s;}
   visibility: visible;
 }
 
-.row-preturi{
-align-items: center;
-margin: auto;
+.wrap-preturi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
 }
-.row-preturi *{margin: auto;}
-.pret{white-space: nowrap;}
+.row-preturi {
+  display: flex;
+  min-width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 
+.img-preturi {
+  border-radius: 100%;
+  z-index: 99;
+  border: rgba(216, 215, 211, 0.5) 7px solid;
+  height: 120px;
+  width: 120px;
+}
+.img-preturi:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
 
-.portret{
+.text-preturi {
+  background-color:#212529;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  white-space: nowrap;
+  width: 90%;
+  position: relative;
+  right: 25px;
+  line-height: 1rem;
+  padding-top: 0.4em;
+}
+.text-preturi h2,
+p {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .row-preturi {
+    min-width: 48%;
+  }
+
+  .img-preturi {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+.row-preturi:nth-child(even) {
+  flex-direction: row-reverse; 
+}
+
+.row-preturi:nth-child(even) > div:nth-child(even)  {
+  position: relative !important;
+  left: 25px;
+}
+
+.portret {
   margin: auto;
   min-width: auto;
 }
 
-.exclamare{font-weight: 600;
-color: red}
+.exclamare {
+  font-weight: 600;
+  color: red;
+}
