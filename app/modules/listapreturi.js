@@ -64,7 +64,7 @@ let data = [
   },
   {
     id: "6",
-    serviciu: "Curatare",
+    serviciu: "Curatare mani",
     pret: "100",
     imgData: {
       src: pic6,
@@ -86,7 +86,7 @@ let data = [
   },
   {
     id: "8",
-    serviciu: "Curatare",
+    serviciu: "Curatare pedi",
     pret: "100",
     imgData: {
       src: pic8,
