@@ -86,7 +86,7 @@ let data = [
   },
   {
     id: "8",
-    serviciu: "Pedichiură Clasică",
+    serviciu: "Curatare",
     pret: "100",
     imgData: {
       src: pic8,

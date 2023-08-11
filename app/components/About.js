@@ -14,7 +14,7 @@ export default function About() {
           <h2 className="h1">CSIKI KRISZTINA</h2>
           <h3>Nail Technician</h3>
           <p>
-            Eu sunt Csiki Krisztina, am 25 de ani și sunt tehnician de unghii.
+            Eu sunt Csiki Krisztina, am 26 de ani și sunt tehnician de unghii.
           </p>
           <p>
             Activez in acest frumos domeniu de 4 ani iar dorința mea a fost să
