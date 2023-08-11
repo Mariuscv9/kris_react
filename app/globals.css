@@ -479,7 +479,7 @@ footer {
 }
 .text-preturi h2,
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 768px) {
@@ -491,6 +491,10 @@ p {
     height: 200px;
     width: 200px;
   }
+  .text-preturi h2,
+p {
+  font-size: 1.3rem;
+}
 }
 
 .row-preturi:nth-child(even) {
