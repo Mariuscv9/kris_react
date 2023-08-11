@@ -27,13 +27,16 @@ export default function Rules() {
               continuare. Se aplică și la pedichiură!
             </li>
             <li>
-              Vă rog să nu întârziați! În cazul în care se întâmplă, din păcate,
-              va trebui să eliminăm anumite elemente din manichiură (design,
+              Vă rog să nu întârziați si nu veniti mai repede la programare!
+              Daca avem programare la ora 10 de exemplu, va rog, veniti la ora
+              stabilita. Pauzele, chiar si de 10 minute, sunt importante pentru
+              mine. În cazul în care se întâmplă sa intarziati, din păcate, va
+              trebui să eliminăm anumite elemente din manichiură (design,
               culoare). La întârzierile mai mari de 30 de minute, programarea va
               fi anulată.
             </li>
             <li>
-              Programările se anulează cu cel puțin 24 ore înainte. La 3 anulari
+              Programările se anulează cu cel puțin 24 ore înainte. La 2 anulari
               consecutive colaborarea noastra se va incheia.
             </li>
             <li>
@@ -54,13 +57,10 @@ export default function Rules() {
               Având în vedere că salonul este micuț, am rugămintea să veniți
               neînsoțite.
             </li>
-            <li>
-              Programările se fac de la ședința la ședința, mai ales în cazul în
-              care doriți programare seara sau în weekend.
-            </li>
+            <li>Programările se fac din timp, minim o luna inainte!.</li>
             <li>
               Dacă doriți design neapărat, vă rog să mă anunțați atunci cand va
-              faceti programares pentru a vă putea aloca mai mult timp în
+              faceti programare pentru a vă putea aloca mai mult timp în
               programator.
             </li>
           </ul>
@@ -71,22 +71,22 @@ export default function Rules() {
             <li>
               Cu o zi inainte de programare veti primi un mesaj de confirmare
               pana la ora 21, am rugamintea sa raspundeti la acest mesaj
-              confirmand sau nu programarea; daca nu primesc raspuns la acest
-              mesaj, programarea va fi automat anulata
+              confirmand sau infirmand programarea; daca nu primesc raspuns la
+              acest mesaj, programarea va fi automat anulata.
             </li>
-            <li>Daca aveti unghii lipsa, va rog sa ma anuntati</li>
+            <li>Daca aveti unghii lipsa, va rog sa ma anuntati.</li>
             <li>
               {" "}
               Pentru programari sau alte nelămuriri raspund doar la mesaje, nu
-              pot vorbi la telefon in timp ce lucrez
+              pot vorbi la telefon in timp ce lucrez.
             </li>
             <li>
               Nu fac constructii lungi (balerina, migdala ruseasca etc), doar
-              unghii mini si medii
+              unghii mini si medii.
             </li>
             <li>
               NU fac constructii pe unghii roase , doar protezare pentru a
-              reface patul unghial
+              reface patul unghial.
             </li>
             <li>
               Atunci când doriți să vă faceți programare sau să cereți detalii,
@@ -98,13 +98,16 @@ export default function Rules() {
             <a className="nav-link" href="https://wa.me/40770494715">
               <Image src={wapp} alt="whatsapp" />
             </a>
-            <a className="nav-link" href="https://www.instagram.com/ck.manicure/">
+            <a
+              className="nav-link"
+              href="https://www.instagram.com/ck.manicure/"
+            >
               <Image src={insta} alt="instagram" />
             </a>
           </div>
           <ul className="pt-4">
             <h5 className="fw-bold">
-              ! Când doriți o programare, vă rog, să îmi lăsați următoarele
+              <span className="exclamare">!</span> Când doriți o programare, vă rog, să îmi lăsați următoarele
               detalii:
             </h5>
             <li>Numele complet;</li>
@@ -115,6 +118,11 @@ export default function Rules() {
               O poza cu unghiile voastre actuale (în cazul în care veniți pentru
               prima oară)
             </li>
+            <h5>
+              <span className="exclamare">‼</span> Clientele noi platesc un avans de 50% din valoarea serviciului
+              programat. Avansul nu este returnabil decat in cazul anularii cu
+              minim 24 de ore inainte.
+            </h5>
           </ul>
         </Col>
       </Row>
