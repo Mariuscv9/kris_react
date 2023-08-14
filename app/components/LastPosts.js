@@ -1,8 +1,5 @@
-import token from "app/modules/longToken"
-console.log(token())
-
 async function getImage() {
-  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.INSTAGRAM_KEY}&limit=15`;
+  const url =  `https://graph.facebook.com/v17.0/17841444085020222/media?fields=media_url,media_type&access_token=${process.env.INSTAGRAM_KEY}&limit=15`;
   const res = await fetch(url);
   const data = await res.json();
   return data;
