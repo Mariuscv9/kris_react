@@ -1,4 +1,7 @@
 import BackToTopButton from "../components/BackToTopButton";
+import GalleryHeader from "./GalleryHeader";
+
+
 async function getImage() {
   const url =  `https://graph.facebook.com/v17.0/17841444085020222/media?fields=media_url,media_type&access_token=${process.env.INSTAGRAM_KEY}&limit=100`;
     console.log(url)
@@ -21,10 +24,13 @@ async function getImage() {
       );
     });
     return (
+    <>
+    <GalleryHeader />
       <div className="recent-row">
         {posts} 
         <BackToTopButton />
       </div>
+    </>
     );
   }
   
