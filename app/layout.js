@@ -7,13 +7,14 @@ import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 <link rel="icon" href="/favicon.png" sizes="any" />;
-// export const metadata = {
-//   title: "CK Nails Studio",
-//   description:
-//     "Ofer o gamă variată de tratamente pentru unghii, într-un ambient relaxant in Bucuresti. Descoperă servicii personalizate ce redau frumusețea unghiilor tale la cel mai înalt nivel.",
-//   keywords: "manichiura, pedichiura, unghii",
-//   author: "Marius Enache",
-// };
+export const metadata = {
+  title: "Salon de manichiura si pedichiura Bucuresti",
+  description:
+    "Ofer o gamă variată de tratamente pentru unghii, într-un ambient relaxant in Bucuresti. Descoperă servicii personalizate ce redau frumusețea unghiilor tale la cel mai înalt nivel.",
+  keywords: "manichiura, pedichiura, unghii",
+  author: "Marius Enache",
+  google_site_verification:"btxmvWxwgbC7H6r8MKPJywG2Nvi-_OtB4s5-j25Mjv0"
+};
 
 export default function RootLayout({ children }) {
   return (
