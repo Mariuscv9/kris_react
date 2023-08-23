@@ -19,13 +19,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Salon de manichiura si pedichiura Bucuresti</title>
+        <title key="tile">Salon de manichiura si pedichiura Bucuresti</title>
         <meta
+        key="description"
           name="description"
           content="Ofer o gamă variată de tratamente pentru unghii, într-un ambient relaxant in Bucuresti. Descoperă servicii personalizate ce redau frumusețea unghiilor tale la cel mai înalt nivel."
         />
-        <meta name="author" content="Marius Enache"/>
-        <meta name="google-site-verification" content="btxmvWxwgbC7H6r8MKPJywG2Nvi-_OtB4s5-j25Mjv0" />
+        <meta key="author" name="author" content="Marius Enache"/>
+        <meta key="google" name="google-site-verification" content="btxmvWxwgbC7H6r8MKPJywG2Nvi-_OtB4s5-j25Mjv0" />
       </Head>
       <body className={inter.className}>
         {children}
