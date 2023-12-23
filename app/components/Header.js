@@ -30,7 +30,7 @@ export default function Header() {
                 Lista preturi
               </Nav.Link>
               <Nav.Link className="nav-item" href="#anchor4">
-                Regulament
+                Reguli si informatii
               </Nav.Link>
               <Nav.Link className="nav-item" href="#anchor5">
                 Lucrari recente
