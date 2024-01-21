@@ -48,10 +48,7 @@ export default function Header() {
               <li className="fbbtn">
                 <a href="https://www.facebook.com/ck.manicure/"></a>
               </li>
-              <li className="instabtn">
-                {" "}
-                <a href="https://wa.me/40770494715"></a>
-              </li>
+              
             </ul>
           </Col>
         </Container>

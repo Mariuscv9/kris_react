@@ -90,14 +90,12 @@ export default function Rules() {
             </li>
             <li>
               Atunci când doriți să vă faceți programare sau să cereți detalii,
-              o puteti face prin dm pe instagram sau pe whatsapp accesand
-              linkurile:
+              o puteti face prin dm pe instagram accesand
+              butonul: 
             </li>
           </ul>
           <div className="info-socials">
-            <a className="nav-link" href="https://wa.me/40770494715">
-              <Image src={wapp} alt="whatsapp" />
-            </a>
+            
             <a
               className="nav-link"
               href="https://www.instagram.com/ck.manicure/"
