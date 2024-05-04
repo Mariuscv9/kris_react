@@ -4,8 +4,6 @@ import pic3 from "public/3.jpg";
 import pic4 from "public/4.jpg";
 import pic5 from "public/5.jpg";
 import pic6 from "public/6.jpg";
-import pic7 from "public/7.jpg";
-import pic8 from "public/8.jpg";
 let data = [
   {
     id: "1",
@@ -73,6 +71,7 @@ let data = [
       height: "200",
     },
   },
+  
 ];
 
 export default data;
