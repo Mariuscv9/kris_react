@@ -9,8 +9,8 @@ import pic8 from "public/8.jpg";
 let data = [
   {
     id: "1",
-    serviciu: "Mini nails",
-    pret: "170",
+    serviciu: "Mini nails (semi)",
+    pret: "200",
     imgData: {
       src: pic1,
       alt: "picture of manicure",
@@ -20,8 +20,8 @@ let data = [
   },
   {
     id: "2",
-    serviciu: "Constructie",
-    pret: "220",
+    serviciu: "Intretinere (clasic/slim)",
+    pret: "250",
     imgData: {
       src: pic2,
       alt: "picture of manicure",
@@ -31,8 +31,8 @@ let data = [
   },
   {
     id: "3",
-    serviciu: "Intretinere Gel",
-    pret: "190",
+    serviciu: "Constructie (clasic/slim)",
+    pret: "300",
     imgData: {
       src: pic3,
       alt: "picture of manicure",
@@ -42,8 +42,8 @@ let data = [
   },
   {
     id: "4",
-    serviciu: "Constructie Slim",
-    pret: "300",
+    serviciu: "Igienizare",
+    pret: "120",
     imgData: {
       src: pic4,
       alt: "picture of manicure",
@@ -53,8 +53,8 @@ let data = [
   },
   {
     id: "5",
-    serviciu: "Intretinere Slim",
-    pret: "250",
+    serviciu: "Estetica",
+    pret: "200",
     imgData: {
       src: pic5,
       alt: "picture of manicure",
@@ -64,32 +64,10 @@ let data = [
   },
   {
     id: "6",
-    serviciu: "Curatare mani",
-    pret: "100",
+    serviciu: "Igienizare",
+    pret: "120",
     imgData: {
       src: pic6,
-      alt: "picture of manicure",
-      width: "200",
-      height: "200",
-    },
-  },
-  {
-    id: "7",
-    serviciu: "Pedichiură Semi",
-    pret: "170",
-    imgData: {
-      src: pic7,
-      alt: "picture of manicure",
-      width: "200",
-      height: "200",
-    },
-  },
-  {
-    id: "8",
-    serviciu: "Curatare pedi",
-    pret: "100",
-    imgData: {
-      src: pic8,
       alt: "picture of manicure",
       width: "200",
       height: "200",
