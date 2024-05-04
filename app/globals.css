@@ -523,18 +523,17 @@ p {
   margin: auto;  
 }
 
-.colextra{margin-top: 0.3em;
+.colextra{
   background-color:#212529;
   color: white;
   line-height: 1rem;
   height: 100%;
   border-radius: 20px;
-  margin: 0.2em auto;
   display: flex;
   flex-direction: column;
 justify-content: center;
 align-items: center;
-margin: 1em auto;
+margin: 1em auto !important;
  }
 
 .extra h4{font-size: 1.1rem;}
@@ -547,3 +546,5 @@ margin: 1em auto;
   justify-content: left;
   text-align: left;
 }
+
+.extracol {margin: 0.5em 0;}

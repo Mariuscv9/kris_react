@@ -19,7 +19,7 @@ export default function listaPreturi() {
         })}
       </div>
       <Row className="text-center">
-        <Col lg={6}>
+        <Col lg={6} className="extracol">
          <div className="colextra">
          <h4>Extra manichiură</h4>
           <div className="aliniere">
@@ -27,7 +27,7 @@ export default function listaPreturi() {
           <h3>Incrustatie Cristale +50 Lei</h3></div>
          </div>
         </Col>
-        <Col lg={6}>
+        <Col lg={6} className="extracol" >
           <div className="colextra">
           <h4>Extra pedichiură</h4>
           <h3>Curatare Onicoliza +50/70 Lei(per unghie)</h3>
