@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "./components/Footer";
 import "dotenv/config";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 <link rel="icon" href="/favicon.png" sizes="any" />;
